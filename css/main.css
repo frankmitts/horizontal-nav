@@ -25,52 +25,38 @@ h1 {
   padding: 0;
   list-style-type: none;
   text-decoration: none;
-  color: #fff;
   line-height: 1rem;
-  font-family: "Bevan", cursive;
+  font-family: "Bevan", serif;
+  color: #fff;
+  text-align: center;
 }
 
-.intro li {
+li {
   display: inline-block;
   margin: 0.3em;
   max-width: 20em;
   padding: .6em;
   background-color: #713837;
   border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  list-style-type: none;
 }
 
-.terre li {
-  display: inline-block;
-  margin: 0.3em;
-  max-width: 20em;
-  padding: .6em;
-  background-color: #713837;
-  border-radius: 5px;
-}
-
-.mars li {
-  display: inline-block;
-  margin: 0.3em;
-  max-width: 20em;
-  padding: .6em;
-  background-color: #713837;
-  border-radius: 5px;
-}
-
-.venus li {
-  display: inline-block;
-  margin: 0.3em;
-  max-width: 20em;
-  padding: .6em;
-  background-color: #713837;
-  border-radius: 5px;
-}
-
-.navbar a:hover {
-  background: #f33;
+li:hover {
+  background-color: #f33;
   color: #fff;
 }
 
 body {
-  margin
+  margin:0;
+}
+
+ul {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color:#fff;
 }
