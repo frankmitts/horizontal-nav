@@ -6,7 +6,6 @@
 
 html {
   box-sizing: border-box;
-  border: 3px solid #595652;
   background-color: #dbd6d0;
 }
 
@@ -18,12 +17,13 @@ h1 {
   font-family: "Bevan", serif;
   color:#fff;
   text-align:center;
+  margin: 0;
 
 }
 
 .navbar {
   box-sizing: content-box;
-  margin: auto;
+  margin: 0;
   padding: 0;
   list-style-type: none;
   text-decoration: none;
@@ -31,11 +31,12 @@ h1 {
   font-family: "Bevan", serif;
   text-align: center;
   background-color: #79756f;
+  text-size-adjust: 100%/0.5rem;
 }
 
 li {
   display: inline-block;
-  margin: 0.3em;
+  margin: 0 0.3em;
   max-width: 20em;
   padding: .6em;
   background-color: #713837;
@@ -58,7 +59,7 @@ body {
 header {
   background-color: #79756f;
   box-sizing: border-box;
-  border: 3px solid #595652;
+  border: 2.5px solid #595652;
 }
 
 ul {
@@ -68,4 +69,6 @@ ul {
 a {
   text-decoration: none;
   color:#fff;
+  font-size: 0.75rem;
+  font-weight: normal;
 }
