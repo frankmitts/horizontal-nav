@@ -6,8 +6,8 @@
 
 html {
   box-sizing: border-box;
-  background-color: #79756f;
   border: 3px solid #595652;
+  background-color: #dbd6d0;
 }
 
 *, *::before, *::after {
@@ -18,17 +18,19 @@ h1 {
   font-family: "Bevan", serif;
   color:#fff;
   text-align:center;
+
 }
 
 .navbar {
+  box-sizing: content-box;
   margin: auto;
   padding: 0;
   list-style-type: none;
   text-decoration: none;
   line-height: 1rem;
   font-family: "Bevan", serif;
-  color: #fff;
   text-align: center;
+  background-color: #79756f;
 }
 
 li {
@@ -50,6 +52,13 @@ li:hover {
 
 body {
   margin:0;
+  background-color: #79756f;
+}
+
+header {
+  background-color: #79756f;
+  box-sizing: border-box;
+  border: 3px solid #595652;
 }
 
 ul {
